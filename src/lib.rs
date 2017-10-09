@@ -7,6 +7,7 @@ mod ch8_collections;
 mod ch9_error;
 mod ch10_generic_trait_lifetime;
 mod ch11_test;
+mod ch13_fp;
 
 pub fn add_two(a: i32) -> i32 {
     internal_adder(a, 2)
