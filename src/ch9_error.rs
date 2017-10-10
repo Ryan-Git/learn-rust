@@ -1,4 +1,5 @@
 #[test]
+#[should_panic(expected = "index out of bounds")]
 fn panic() {
     let v = vec![1, 2, 3];
 

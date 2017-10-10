@@ -2,5 +2,13 @@
 name = "learn-rust"
 version = "0.1.0"
 authors = ["Ryan Ren <ryan.hd.ren@gmail.com>"]
+description = "A codebase for rust documents."
+license = "MIT/Apache-2.0"
 
 [dependencies]
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
