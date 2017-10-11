@@ -9,6 +9,7 @@ mod ch10_generic_trait_lifetime;
 mod ch11_test;
 mod ch13_fp;
 pub mod ch14_cargo_crates;
+mod ch15_smart_pointers;
 
 pub fn add_two(a: i32) -> i32 {
     internal_adder(a, 2)
