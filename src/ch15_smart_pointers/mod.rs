@@ -1,6 +1,7 @@
 mod ch15_1_box;
 mod ch15_4_rc;
 mod ch15_5_ref_cell;
+mod ch15_6_ref_cycle;
 
 //Box<T>, for allocating values on the heap
 //Rc<T>, a reference counted type so data can have multiple owners
