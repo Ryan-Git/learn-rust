@@ -12,6 +12,7 @@ pub mod ch14_cargo_crates;
 mod ch15_smart_pointers;
 mod ch16_concurrency;
 mod ch17_oop;
+mod ch18_pattern_match;
 
 pub fn add_two(a: i32) -> i32 {
     internal_adder(a, 2)
