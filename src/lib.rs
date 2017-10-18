@@ -13,6 +13,7 @@ mod ch15_smart_pointers;
 mod ch16_concurrency;
 mod ch17_oop;
 mod ch18_pattern_match;
+mod ch19_advanced_feature;
 
 pub fn add_two(a: i32) -> i32 {
     internal_adder(a, 2)
